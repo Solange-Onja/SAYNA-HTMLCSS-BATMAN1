@@ -1,0 +1,45 @@
+/* Pour les écrans jusqu'à 767px de largeur */
+@media screen and (max-width: 767px) {
+  /* Réduire la taille du texte */
+  #p1 {
+      font-size: 14px;
+  }
+  /* Centrer le texte et les boutons */
+  td {
+      text-align: center;
+  }
+  /* Réduire la taille des logos */
+  .photo-slide img {
+      width: 40px;
+      height: 40px;
+  }
+}
+
+/* Pour les écrans de 768px à 1023px de largeur */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Réduire la taille du texte */
+  #p1 {
+      font-size: 16px;
+  }
+  /* Centrer le texte et les boutons */
+  td {
+      text-align: center;
+  }
+  /* Réduire la taille des logos */
+  .photo-slide img {
+      width: 50px;
+      height: 50px;
+  }
+}
+
+/* Pour les écrans de 1024px et plus */
+@media screen and (min-width: 1024px) {
+  /* Remettre la taille du texte et des logos par défaut */
+  #p1 {
+      font-size: 20px;
+  }
+  .photo-slide img {
+      width: 60px;
+      height: 60px;
+  }
+}
