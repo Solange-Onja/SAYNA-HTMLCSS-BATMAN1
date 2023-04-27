@@ -17,7 +17,7 @@ body {
 
 .navbar {
     /* background-color: #000; Couleur de fond de la barre de navigation */
-    border: solid 4px #BCBBBD;
+    border: solid 4px #3f3d41;
     /* Bordure blanche de 1 pixel */
     padding: 50px;
     margin-left: 80px;
@@ -34,7 +34,7 @@ body {
 
 #logo :hover {
     width: 80%;
-    background: #FFFF00;
+   background: #FFFF00;
 
 }
 
@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 .partie1 {
-    border: #BCBBBD solid 4px;
+    border: #3f3d41 solid 4px;
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 0;
@@ -61,6 +61,7 @@ p {
     /* padding-left: 80px; */
     padding-right: 80px;
     line-height: 2;
+
 }
 
 .titre {
@@ -113,12 +114,16 @@ p {
 }
 
 .section2 {
-    border: #BCBBBD solid 4px;
-    padding: 100px;
+    border: #3f3d41 solid 4px;
+    padding-left: 150px;
     margin-left: 80px;
     margin-right: 80px;
     border-top: 0;
-    margin-top: -20px;
+    border-bottom: 0;
+    margin-top: -80px;
+    padding-right: 50px;
+    padding-top: 100px;
+    color: #fff;
 }
 
 .p2 {
@@ -145,4 +150,53 @@ h3 {
     color: #fff;
     text-align: center;
 
+}
+
+.photo2 {
+    display: block;
+    position: absolute;
+    width: 10%;
+    padding-left: 70px;
+
+}
+
+.multi {
+    font-size: 10px;
+    text-align: left;
+    margin: -10%;
+}
+
+h4 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.divmulti {
+    background-color: #283234;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    padding-left: 10px;
+    margin-right: 200px;
+    margin-left: -6%;
+    
+    /* margin-right: 200px; */
+}
+
+.fleche2 {
+    margin-top: 80px;
+    /* padding-left: 80px; */
+}
+.form{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0; 
+    color: #fff;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+h2{
+    text-align: center; 
+    color: #fff;
+    font-size: 36px;
+     font-family:'Rajdhani', sans-serif; 
+     padding-top: 50px;
 }
