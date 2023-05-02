@@ -1,7 +1,7 @@
 /* Pour les écrans jusqu'à 767px de largeur */
 @media screen and (max-width: 767px) {
   /* Réduire la taille du texte */
-  #p1 {
+  #p {
       font-size: 14px;
   }
   /* Centrer le texte et les boutons */
@@ -12,6 +12,9 @@
   .photo-slide img {
       width: 40px;
       height: 40px;
+  }
+  .multi{
+    font-size: 10px;
   }
 }
 

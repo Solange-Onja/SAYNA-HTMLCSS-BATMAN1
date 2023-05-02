@@ -3,191 +3,121 @@ body {
     padding: 0%;
     margin: 0%;
     background-color: #000000;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Space Grotesk';
 }
-
-.section1 {
-
-    height: 100%;
-    background-image: url('../assets/Illustrations/Bathome1.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* background-size: cover; */
-    /* background-position: center; */
-}
-
-.navbar {
-    /* background-color: #000; Couleur de fond de la barre de navigation */
-    border: solid 4px #3f3d41;
-    /* Bordure blanche de 1 pixel */
-    padding: 50px;
-    margin-left: 80px;
-    margin-right: 80px;
-    border-top: 0;
-}
-
-.list-head li {
-    display: inline-block;
-    text-decoration: underline;
-    color: aliceblue;
-    vertical-align: middle;
-}
-
-#logo :hover {
+.container{
     width: 80%;
-    background: #FFFF00;
-
+    margin: 0 auto;
 }
-
-nav ul li a {
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30 px 0;
+}
+ul{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Rajdhani';
     text-decoration: none;
     color: #fff;
 }
-
-.partie1 {
-    border: #3f3d41 solid 4px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 0;
-    border-bottom: 0;
+ ul li a:hover{
+    color: #FFFF00;
 }
-
-p {
-    color: #fff;
+/* partie hero  */
+#hero{
+    background-image: url('../assets/Illustrations/Bathome1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+.batman-personnage{
+    display: flex;
+    justify-content: space-between;
+}
+ .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    padding: 10%;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 18px;
-    /* padding-left: 80px; */
-    padding-right: 80px;
-    line-height: 2;
-
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 150px;
+ }
+ .btn{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px ;
+    padding: 10px 50px;
+    background-image: linear-gradient(80deg, #eddebf,#890008);
+    box-shadow: #000000 15px 5px 60px;
+ }
+.slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 80px;
+    top: 240px;
+    
 }
-
-.titre {
+.slide .social{
+    margin-top: 15px;
+}
+.titre{
+    font-weight: bold;
+    margin: 30px;
+    margin-bottom: 40px;
     font-family: 'Rajdhani', sans-serif;
     font-size: 36px;
     color: #fff;
-    /* padding-left: 50px; */
 }
-
-.bat {
-    color: #fff;
-    font-family: 'Rajdhani', sans-serif;
+.description{
+    margin-bottom: 40px;
+    text-align: justify;
+    width: 80%;
     font-size: 22px;
-    text-align: center;
-    margin-top: -100px;
-}
-
-.call-to-action {
-    display: inline-block;
-    color: #BCBBBD;
-    text-decoration: none;
-    padding: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left: 30px;
-    margin-top: 50px;
-    background-image: linear-gradient(to right, #9e9e9e, rgba(130 22 11 9));
-    /* opacity: 9; */
-    /* background-image: linear-gradient(to right, #b56559, #82160B); */
-}
-
-.slide {
-    float: right;
-    margin-top: -330px;
-    margin-right: -55px;
-    /* padding: 15px; */
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.liste {
-    padding-top: 30px;
 }
 
 .fleche {
+    display: block;
     text-align: center;
-    margin-top: 150px;
+    margin: 0 auto;
+    margin-top: 250px;
     /* margin-bottom: 20px; */
 }
 
-.section2 {
-    border: #3f3d41 solid 4px;
-    padding-left: 150px;
-    margin-left: 80px;
-    margin-right: 80px;
-    border-top: 0;
-    border-bottom: 0;
-    margin-top: -80px;
-    padding-right: 50px;
-    padding-top: 100px;
-    color: #fff;
-}
-
-.p2 {
-    padding: 0;
-    /* padding-left: 80px; */
-    padding-right: 80px;
-    text-align: justify;
-    margin-right: 20px;
-
-}
-
-.items {
-    /* padding-left: 100px; */
-    margin-top: 50px;
-    text-align: center;
-}
-
-.item {
-    display: inline-block;
-    margin-right: 70px;
-}
-
-h3 {
-    color: #fff;
-    text-align: center;
-
-}
-
-.photo2 {
-    display: block;
-    position: absolute;
-    width: 10%;
-    padding-left: 70px;
-
-}
-
-.multi {
-    font-size: 10px;
-    text-align: left;
-    margin: -10%;
-}
-
-h4 {
-    font-family: 'Space Grotesk', sans-serif;
-}
 
 .divmulti {
     background-image: linear-gradient(to right, #49463E, #172730);
-    /* background-color: #283234; */
+    display: flex;
     border: #fff solid 1px;
     border-left: 0;
     border-bottom-right-radius: 5%;
     border-top-right-radius: 5%;
-    padding-left: 10px;
-    margin-right: 200px;
-    margin-left: -6%;
-
-    /* margin-right: 200px; */
+   width: 60%;
+   margin: 40px auto;
+}
+.mutli-description{
+    font-size: 15px;
+}
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 15px;
 }
 
 .fleche2 {
     margin-top: 80px;
-    /* padding-left: 80px; */
 }
 
 .form {
@@ -200,13 +130,13 @@ h4 {
     /* overflow: auto; */
 }
 
-h2 {
+/* h2 {
     text-align: center;
     color: #fff;
     font-size: 36px;
     font-family: 'Rajdhani', sans-serif;
     padding-top: 50px;
-}
+} */
 
 * h5 {
     font-size: 20px;
@@ -280,5 +210,5 @@ input:focus {
 .footer{
     display: inline-block;
      vertical-align: middle;
-      margin-top: -15%;
+     
 }
