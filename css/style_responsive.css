@@ -5,7 +5,7 @@
       font-size: 14px;
   }
   /* Centrer le texte et les boutons */
-  td {
+  .btn{
       text-align: center;
   }
   /* Réduire la taille des logos */
