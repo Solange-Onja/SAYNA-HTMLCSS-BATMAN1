@@ -60,17 +60,22 @@ ul li a:hover {
 
 /* partie hero  */
 #hero {
-    /* background-image: url('../assets/Illustrations/Bathome1.png');
-    background-position: top center;
-    background-repeat: no-repeat; */
     width: 100%;
     height: 800px;
     background-size: cover;
 }
-
+/*  les personnage du batman */
 .batman-personnage {
     display: flex;
     justify-content: space-between;
+}
+.batman-personnage:hover {
+    cursor: pointer;
+    /* transform: scale(1.1) rotate(-3deg); */
+}
+.animation-image:hover{
+    transform: scale(1.1) ;
+
 }
 h3{
     text-align: center;
@@ -85,7 +90,7 @@ h3{
     width: 60%;
     padding-top: 150px;
 }
-
+/* boutton */
 .btn {
     color: #fff;
     text-decoration: none;
@@ -95,7 +100,7 @@ h3{
     background-image: linear-gradient(to right, rgba(237, 222, 191, 0.3) 40%, rgba(137, 0, 8, 0.3) 60%);
     box-shadow: #000000 15px 5px 60px;
 }
-
+/* image fixe à droite */
 .slide {
     display: flex;
     flex-direction: column;

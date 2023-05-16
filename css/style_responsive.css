@@ -1,12 +1,11 @@
 /* Pour les écrans jusqu'à 767px de largeur */
 @media screen and (max-width: 767px) {
   /* Réduire la taille du texte */
-  #p {
-      font-size: 14px;
+  p{
+      font-size: 10px;
   }
-  /* Centrer le texte et les boutons */
-  .btn{
-      text-align: center;
+  .description{
+    font-size: 10px;
   }
   /* Réduire la taille des logos */
   .photo-slide img {
@@ -15,6 +14,10 @@
   }
   .multi{
     font-size: 10px;
+  }
+  .batman-presonnage img{
+    width: 10%;
+    display: inline-block;
   }
 }
 
